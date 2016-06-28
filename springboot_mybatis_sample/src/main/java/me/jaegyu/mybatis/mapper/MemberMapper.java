@@ -8,6 +8,6 @@ import me.jaegyu.mybatis.model.Member;
 
 public interface MemberMapper {
 	
-	@Select("select * from member")
+	@Select("select id,name,age from members;")
 	public List<Member> findAll() throws Exception;
 }

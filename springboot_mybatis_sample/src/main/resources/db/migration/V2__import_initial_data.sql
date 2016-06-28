@@ -1,0 +1,1 @@
+insert into members (name, age) values ('Nobita', 36);
